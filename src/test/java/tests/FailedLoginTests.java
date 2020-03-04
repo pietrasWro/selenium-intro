@@ -24,7 +24,7 @@ public class FailedLoginTests extends TestBase {
                 .typeIntoPasswordField("NotProperPassword")
                 .clickOnLoginButton();
         loginPage
-                .assertThatWarningIsDisplayed("Invalid username or password. Signon failed.");
+                .assertThatWarningIsDisplayed("Invalid username or password. Signon failed...");
     }
 
 }
